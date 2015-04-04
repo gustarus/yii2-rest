@@ -38,7 +38,7 @@ class RestUserAction extends \webulla\rest\actions\RestAction {
 	/**
 	 * @inheritdoc
 	 */
-	public function handleGet() {
+	protected function handleGet() {
 		// return authorized user
 		if(!Yii::$app->getRequest()->get('id')) {
 			if($identity = Yii::$app->getUser()->getIdentity()) {

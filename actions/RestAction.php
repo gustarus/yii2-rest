@@ -75,28 +75,28 @@ class RestAction extends \yii\base\Action {
 	/**
 	 * @return ActiveRecord
 	 */
-	public function handleGet() {
+	protected function handleGet() {
 		return $this->loadModelFromRequest();
 	}
 
 	/**
 	 * @return ActiveRecord
 	 */
-	public function handlePost() {
+	protected function handlePost() {
 		return $this->chainSave($this->loadModel());
 	}
 
 	/**
 	 * @return ActiveRecord
 	 */
-	public function handlePut() {
+	protected function handlePut() {
 		return $this->chainSave($this->loadModelFromRequest());
 	}
 
 	/**
 	 * @return ActiveRecord
 	 */
-	public function handleDelete() {
+	protected function handleDelete() {
 		return $this->chainDelete($this->loadModelFromRequest());
 	}
 
