@@ -111,7 +111,13 @@ $(function() {
 
 Response:
 ```json
-{"id":"23","user_id":"1","content":"Text here","created_at":"2015-04-04 14:08:10","updated_at":"2015-04-04 14:08:20"}
+{
+	"id":"23",
+	"user_id":"1",
+	"content":"Text here",
+	"created_at":"2015-04-04 14:08:10",
+	"updated_at":"2015-04-04 14:08:20"
+}
 ```
 
 ## Security
