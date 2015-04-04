@@ -1,0 +1,24 @@
+{
+	"name": "webulla/yii2-rest",
+	"description": "Yii2 component for rest api integration",
+	"keywords": ["webulla", "yii2", "yii", "rest", "extension"],
+	"homepage": "https://github.com/gustarus/yii2-rest",
+	"type": "yii2-extension",
+	"license": "GPL",
+	"authors": [
+		{
+			"name": "Pavel Kondratenko",
+			"email": "gustarus@gmail.com",
+			"homepage": "http://webulla.ru",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"webulla\\rest\\": ""
+		}
+	}
+}
