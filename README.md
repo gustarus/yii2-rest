@@ -70,7 +70,7 @@ Allowed the following types of queries:
 
 If you transfer data using one of the following methods: get, put, delete - you must also pass the primary key (id attribute) of the model:
 ```
-yoursite.com/post/rest?id=**1**
+yoursite.com/post/rest?id=1
 ```
 You can also use short URL for your rest api. To do this, configure the component *urlManager* in your configuration file:
 ```php
